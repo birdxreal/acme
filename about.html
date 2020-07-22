@@ -7,16 +7,18 @@
     <title>About</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="container">
         <div id="branding">
           <h1><span class="highlight">Acme</span> Web Design</h1>
         </div>
-        <nav>
+        <nav id="nav-bar">
           <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li class="current"><a href="./about.html">About</a></li>
-            <li><a href="./services.html">Services</a></li>
+            <li><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="current">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li><a class="nav-link" href="./services.html">Services</a></li>
           </ul>
         </nav>
       </div>
@@ -25,7 +27,7 @@
     <section id="newsletter">
       <div class="container">
         <h1>Subscribe To Our Newsletter</h1>
-        <form>
+        <form id="form">
           <input type="email" placeholder="Enter Email..." />
           <button type="submit" class="button_1">Subscribe</button>
         </form>
